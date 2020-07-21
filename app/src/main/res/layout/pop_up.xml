@@ -33,6 +33,7 @@
 
             <EditText
                 android:id="@+id/itemQuantity"
+                android:inputType="number"
                 android:layout_below="@id/babyItem"
                 android:layout_width="match_parent"
                 android:hint="@string/hint_qty"
@@ -47,6 +48,7 @@
 
             <EditText
                 android:id="@+id/itemSize"
+                android:inputType="number"
                 android:layout_below="@id/itemColor"
                 android:layout_width="match_parent"
                 android:hint="@string/hint_size"
