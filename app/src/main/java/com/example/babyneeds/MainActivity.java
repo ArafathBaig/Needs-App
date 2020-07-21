@@ -31,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        saveButton = findViewById(R.id.saveButton);
+
+        saveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                saveItem();
+            }
+        });
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +48,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void createPopupDialog(){
+    private void saveItem(){
+
+    }
+
+    private void createPopupDialog(){
 
         builder = new AlertDialog.Builder(this);
         View view  = getLayoutInflater().inflate(R.layout.pop_up, null);

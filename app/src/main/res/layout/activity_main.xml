@@ -30,4 +30,10 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_input_add" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="186dp"
+        android:text="TextView" />
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
